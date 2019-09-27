@@ -5,3 +5,4 @@
 #### 5.Інформацію не було видно тому що зміни відбулись на новій гіці.
 #### 6.Злиття відбулось успішно
 #### 7.Commit browser
+ ![alt text](https://github.com/IgorShevtsiv/IK-31/blob/master/Shevtsiv/1.PNG)
