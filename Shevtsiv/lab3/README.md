@@ -15,3 +15,8 @@
 
 
 6. Створив папку cool_app/templates та файл темплейту main.html та файл cool_app/urls.py.
+
+7. Вказав назви сторінок та де їх шукати.
+
+8. Запустив сайт, все працює:
+![sait pracue](./image/cool_app_works.png)
