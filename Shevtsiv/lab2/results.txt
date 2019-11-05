@@ -1,17 +1,17 @@
 ============================= test session starts ==============================
 platform linux -- Python 3.7.5rc1, pytest-5.2.2, py-1.8.0, pluggy-0.13.0
-rootdir: /home/shevtsiv/dev_ops/IK-31/Shevtsiv/lab2
+rootdir: /home/shevtsiv/testlab/Shevtsiv/lab2
 collected 4 items
 
 tests/tests.py ....                                                      [100%]
 
-============================== 4 passed in 0.94s ===============================
+============================== 4 passed in 0.74s ===============================
 ========================================
 Результат без параметрів: 
 No URL passed to function
 ========================================
 Результат з правильною URL: 
-Time is:  12:13:37 PM
+Time is:  12:31:53 PM
 
 Good Evening
 Date is:  11-05-2019
