@@ -20,3 +20,8 @@
 
 8. Запустив сайт, все працює:
 ![sait pracue](./image/cool_app_works.png)
+
+9. 13 - виконав всі завдання для захисту. Перевірив чи все працює:
+![monitor works](./image/monitoring_works.png)
+
+

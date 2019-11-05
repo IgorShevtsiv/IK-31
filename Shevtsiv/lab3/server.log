@@ -1,0 +1,22 @@
+INFO 2019-11-05 16:35:01,668 root : Сервер доступний. Час на сервері: 14:31:57 2019:11-05
+INFO 2019-11-05 16:35:01,668 root : Запитувана сторінка: : /health/
+INFO 2019-11-05 16:35:01,668 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-05 16:35:01,668 root : Ключ: date, Значення: 14:31:57 2019:11-05
+INFO 2019-11-05 16:35:01,668 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-05 16:35:01,668 root : Ключ: server_info, Значення: ['Linux', 'shevtsiv', '5.3.0-18-generic', '#19-Ubuntu SMP Tue Oct 8 20:14:06 UTC 2019', 'x86_64']
+INFO 2019-11-05 16:35:01,668 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-05 16:35:03,653 root : Сервер доступний. Час на сервері: 14:31:57 2019:11-05
+INFO 2019-11-05 16:35:03,654 root : Запитувана сторінка: : /health/
+INFO 2019-11-05 16:35:03,654 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-05 16:35:03,654 root : Ключ: date, Значення: 14:31:57 2019:11-05
+INFO 2019-11-05 16:35:03,654 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-05 16:35:03,654 root : Ключ: server_info, Значення: ['Linux', 'shevtsiv', '5.3.0-18-generic', '#19-Ubuntu SMP Tue Oct 8 20:14:06 UTC 2019', 'x86_64']
+INFO 2019-11-05 16:35:03,654 root : Ключ: client_info, Значення: python-requests/2.22.0
+ERROR 2019-11-05 16:35:10,044 root : Виникла помилка: : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f59cfeb3a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO 2019-11-05 16:38:13,769 root : Сервер доступний. Час на сервері: 14:37:51 2019:11-05
+INFO 2019-11-05 16:38:13,770 root : Запитувана сторінка: : /health/
+INFO 2019-11-05 16:38:13,770 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-05 16:38:13,770 root : Ключ: date, Значення: 14:37:51 2019:11-05
+INFO 2019-11-05 16:38:13,770 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-05 16:38:13,770 root : Ключ: server_info, Значення: ['Linux', 'shevtsiv', '5.3.0-18-generic', '#19-Ubuntu SMP Tue Oct 8 20:14:06 UTC 2019', 'x86_64']
+INFO 2019-11-05 16:38:13,770 root : Ключ: client_info, Значення: python-requests/2.22.0
