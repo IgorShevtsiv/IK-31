@@ -29,3 +29,7 @@
 10. Налаштував вивід в "results.txt". Команда "pytest tests/tests.py > results.txt" та "python app.py >> results.txt"
 
 11. Зробив коміт
+
+12. Заповнив Makefile
+
+13. Закомітив Makefile до репозиторію
