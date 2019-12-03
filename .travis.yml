@@ -11,13 +11,13 @@ jobs:
       install:
         - cd ./Shevtsiv/lab2
         - pipenv install
-      script: pipenv run pytest tests/tests.py || true
+      script: pipenv run pytest tests/tests.py
     - stage: "Build Lab 3."
-      name: "Run Djungo Server and test it accessibility. Fail to run and t=
+      name: "Run Djungo Server and test it acc!essibility. Fail to run and t=
 est"
       python: 3.7
       install:
-        - cd ./lab3/
+        - cd ./Shevtsiv/lab3/
         - pipenv install
       script: ./scripts/travis-build.sh
     - stage: "Build Lab 4."
@@ -25,7 +25,7 @@ est"
       services:
         - docker
       install:
-        - cd ./lab4/
+        - cd ./Shevtsiv/lab4/
       script:
         - docker build -t shevtsiv/lab4-examples:django-travis .
         - docker images
@@ -35,7 +35,7 @@ est"
       services:
         - docker
       install:
-        - cd ./lab5/
+        - cd ./Shevtsiv/lab5/
         - make app
         - make tests
       script:
