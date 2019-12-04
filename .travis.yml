@@ -42,7 +42,8 @@ est"
       script:
         - make run
         - make test-app
-        - make upload
+        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; make upload; else echo "PR skip deploy"; fi
+
 branches:
   only:
     - master
