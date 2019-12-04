@@ -11,7 +11,7 @@ jobs:
       install:
         - cd ./Shevtsiv/lab2
         - pipenv install
-      script: pipenv run pytest tests/tests.py
+      script: make test
     - stage: "Build Lab 3."
       name: "Run Djungo Server and test it acc!essibility. Fail to run and t=
 est"
@@ -28,8 +28,9 @@ est"
         - cd ./Shevtsiv/lab4/
       script:
         - docker build -t shevtsiv/lab4-examples:django-travis .
+        - docker build -t shevtsiv/lab4-examples:monitoring-travis
         - docker images
-        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push shevtsiv/lab4-examples:django-travis; else echo "PR skip deploy"; fi
+        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push shevtsiv/lab4-examples:django-travis; docker push shevtsiv/lab4-examples:monitoring-travis; else echo "PR skip deploy"; fi
     - stage: "Build Lab 5."
       name: "Build and run Docker images via make"
       services:
@@ -41,6 +42,7 @@ est"
       script:
         - make run
         - make test-app
+        - make upload
 branches:
   only:
     - master
